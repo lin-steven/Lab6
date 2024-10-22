@@ -20,7 +20,11 @@ if __name__ == '__main__':  # Main method made by Steven Lin
             password = input("Please enter your password to encode:")
             encoded_pass = encode(password)
             print("Your password has been encoded and stored!")
+            print("")
+
         if option == 2:
             print(f"The encoded password is {encoded_pass}, and the original password is {decode(encoded_pass)}.")
+            print("")
+
         if option == 3:
             break
